@@ -1,10 +1,10 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F7B11B&lines=Ol%C3%A1+pessoas!%F0%9F%91%8B;)](https://github.com/Artemis-TK)
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Artemis-TK&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=omni&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Artemis-TK&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=omni&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=Artemiz-TK&locale=en&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&&locale=en&hide_border=false&theme=omni" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Artemiz-TK&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=omni&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-<div align="left">
+<div style="width:100%;" align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript logo"  />
