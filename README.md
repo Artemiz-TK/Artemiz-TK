@@ -4,7 +4,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Artemiz-TK&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=omni&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-<div style="width:100%;" align="center">
+<div style='width:100%; background-color: #00000000' align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript logo"  />
@@ -34,7 +34,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg" height="30" alt="MariaDB logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="MySQL logo" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="C logo" />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" height="30" alt="C++ logo" >
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="Bash logo" />
 </div>
 
 <br clear="both">
