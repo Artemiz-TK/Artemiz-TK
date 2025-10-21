@@ -1,19 +1,24 @@
 name: Scheduled README Update
 
 on:
-  # Agende para rodar a cada 4 horas
   schedule:
-    - cron: '0 */4 * * *'
-  # Permite que você execute manualmente na aba "Actions"
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Dummy Commit to force refresh
+      - name: checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: criar um commit vazio para forçar refresh
         run: |
           git config --global user.email "artemiz.onion@gmail.com"
           git config --global user.name "Artemiz"
-          git commit -m "ci(update): forcing README refresh" --allow-empty
-          git push
+          git commit --allow-empty -m "ci(update): forcing README refresh"
+      
+      - name: fazer push para o repositório
+        run: git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
