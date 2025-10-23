@@ -2,23 +2,28 @@ name: Scheduled README Update
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */3 * * *' # a cada 3 horas
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    steps:
-      - name: checkout do repositório
-        uses: actions/checkout@v4
+    permissions:
+      contents: write
 
-      - name: criar um commit vazio para forçar refresh
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Criar um commit vazio para forçar refresh
         run: |
-          git config --global user.email "artemiz.onion@gmail.com"
-          git config --global user.name "Artemiz"
-          git commit --allow-empty -m "ci(update): forcing README refresh"
-      
-      - name: fazer push para o repositório
+          git config user.email "artemiz.onion@gmail.com"
+          git config user.name "Artemiz"
+          git commit --allow-empty -m "ci(update): forcing README refresh" || echo "Nenhuma alteração para commitar"
+
+      - name: Fazer push para o repositório
         run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
