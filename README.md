@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F7B11B&lines=Ol%C3%A1+pessoas!%F0%9F%91%8B;)](https://github.com/Artemiz-TK)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=F7B11B&lines=Ol%C3%A1+pessoal!%F0%9F%91%8B;)](https://github.com/Artemiz-TK)
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Artemiz-TK&locale=en&theme=omni&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&hide_border=false" height="150" alt="stats graph" />
 
